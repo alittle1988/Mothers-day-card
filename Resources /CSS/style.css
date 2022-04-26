@@ -1,6 +1,10 @@
 /* universal section */
 html{
     font-size: 16px;
+    
+}
+
+main {
     background-color: rgb(247, 203, 210);
 }
 
@@ -13,3 +17,14 @@ header {
 header h1 {
     font-size: 3rem;
 }
+
+/* carousel section */
+
+#carouselDiv {
+    background-color: rgb(247, 203, 210);
+}
+#carouselDiv img {
+    width: 500px;
+    height: 700px;
+}
+
