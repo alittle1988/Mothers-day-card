@@ -1,1 +1,15 @@
 /* universal section */
+html{
+    font-size: 16px;
+    background-color: rgb(247, 203, 210);
+}
+
+/*header section */
+
+header {
+    background-color: rgb(247, 203, 210);
+}
+
+header h1 {
+    font-size: 3rem;
+}
