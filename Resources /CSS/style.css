@@ -28,3 +28,7 @@ header h1 {
     height: 700px;
 }
 
+#my-carousel2 img {
+    border-radius: 75px 75px 75px 75px;
+}
+
