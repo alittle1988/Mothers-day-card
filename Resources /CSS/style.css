@@ -54,7 +54,6 @@ header h1 {
 .flip-card-container {
     width: 500px;
     height: 300px;
-    border: 1px solid white;
     perspective: 1000px;
     
 }
@@ -63,14 +62,12 @@ header h1 {
     position: relative;
     width: 100%;
     height: 100%;
-    transition: tranform 3s;
+    transition: transfrom 1s;
     transform-style: preserve-3d;
 }
 
-.flip-card-container:hover .flip-card-front {
-    transform: rotateX(180deg);
-    
-    
+.flip-card:hover .flip-card-front{
+    transform: rotateY(180deg);
 }
 
 .flip-card-front, .flip-card-back {
@@ -87,11 +84,11 @@ header h1 {
 .flip-card-front {
     background-color: red;
     color: white;
+    z-index: 1;
 }
 
 .flip-card-back {
     background-color: purple;
     color: white;
-    transform: rotateX(180deg);
-    
+    text-align: center;
 }
